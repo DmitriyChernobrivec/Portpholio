@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    font-size: 18px;
+    border: 1px solid green;
+}
+.nav-logo-section {
+    height:100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.logo-container {
+    height:100px;
+    width: 20%;
+    border: 1px solid red;
+}
+.navigation li {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+nav > ul li a {
+    color: white;
+}
